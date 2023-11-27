@@ -1,0 +1,44 @@
+.settings {
+  width: 40px;
+  height: 40px;
+}
+
+.bell-settings {
+  background-color: #f5f4f8;
+  width: 40px;
+  height: 40px;
+}
+
+.settings img {
+  object-fit: cover;
+  aspect-ratio: 1/1;
+  position: 50% 50%;
+  width: 40px;
+}
+
+.online {
+  bottom: 5px;
+  right: 2px;
+  width: 10px;
+  height: 10px;
+  background-color: #1acb98;
+}
+
+.notify {
+  top: 0px;
+  right: 2px;
+  width: 10px;
+  height: 10px;
+  background-color: #7550fe;
+}
+
+@font-face {
+  font-family: "campanella";
+  src: url("./assets/feather.ttf");
+}
+
+.bell {
+  font-family: "campanella";
+  content: \ue91e;
+  color: #a49eb5;
+}
