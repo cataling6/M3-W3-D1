@@ -33,12 +33,32 @@
 }
 
 @font-face {
-  font-family: "campanella";
+  font-family: "feather";
   src: url("./assets/feather.ttf");
+}
+@font-face {
+  font-family: "fa-regular";
+  src: url("./assets/fa-regular-400.woff2");
 }
 
 .bell {
-  font-family: "campanella";
+  font-family: "feather";
   content: \ue91e;
   color: #a49eb5;
+}
+
+.signal {
+  font-family: "feather";
+  content: \ue91a;
+  color: #a49eb5;
+}
+
+.bookmark-custom {
+  font-family: "fa-regular";
+  content: \uf02e;
+  color: #a49eb5;
+}
+
+.stella {
+  color: #ffaa46;
 }
