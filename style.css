@@ -66,3 +66,23 @@
 .hero {
   background-color: #7550fe;
 }
+
+.cam {
+  font-family: "feather";
+  content: \ue9f7;
+  color: #c27f2d;
+}
+.users {
+  font-family: "feather";
+  content: \ue9f6;
+  color: #c27f2d;
+}
+.clock {
+  font-family: "fa-regular";
+  content: \uf017;
+  color: #c27f2d;
+}
+
+.bg-cathegory {
+  background-color: #ffeeda;
+}
