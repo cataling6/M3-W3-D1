@@ -86,3 +86,18 @@
 .bg-cathegory {
   background-color: #ffeeda;
 }
+.ingrandisci {
+  transition: ease 0.5s;
+}
+.ingrandisci:hover {
+  transform: scale(1.2);
+}
+
+.card {
+  transition: 0.5s ease;
+}
+
+.card:hover {
+  z-index: 1000;
+  transform: scaleX(1.1);
+}
